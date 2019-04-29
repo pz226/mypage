@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 .heroEffects {
     height: 100vh;
     position: relative;
@@ -9,7 +14,7 @@
     height: 100vh;
     position: fixed;
     width: 100%;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/30256/jungleBG.jpg");
+    background-image: url("./picture/top.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -34,7 +39,7 @@
     text-align: center;
     color: White;
     padding: 4em;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0,60,99,0.6);
 }
 .heroEffects .arrow {
     position: fixed;
@@ -124,4 +129,109 @@ html, body {
 body {
     font-family: "Julius Sans One", sans-serif;
     font-size: 12px;
+}
+
+.content {
+    padding: 0px;
+}
+
+.types {
+    width: 100%;
+    height: 1170px;
+}
+
+.types a{
+    display: inline-block;
+    line-height: 125px;
+}
+
+.type {
+    height: 12.5%;
+    width: 100%;
+    background-size: cover;
+    font-size: 50px;
+    text-decoration: none;
+    font-style:italic;
+    color: white;
+    opacity: 0.4;
+}
+
+.b717{
+    background-image: url(./picture/717.jpg);
+}
+
+.b727{
+    background-image: url(./picture/727.jpg);
+}
+
+.b737{
+    background-image: url(./picture/737.jpg);
+}
+
+.b747{
+    background-image: url(./picture/747.jpg);
+}
+
+.b757{
+    background-image: url(./picture/757.jpg);
+}
+
+.b767{
+    background-image: url(./picture/767.jpg);
+}
+
+.b777{
+    background-image: url(./picture/777.jpg);
+}
+
+.b787{
+    background-image: url(./picture/787.jpg);
+}
+
+header {
+    background-color: #dc5f2d;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-idex: 1;
+}
+
+.header-logo img{
+    width: 110px;
+    height: 70px;
+    float: left;
+}
+
+.header-logo p{
+    float: left;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header-right a{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 35px;
+    padding-right: 10px;
+    color: #fff9df;
+}
+
+.header-right li{
+    list-style: none;
+}
+
+.exp {
+    width: 100%;
+    height: 2000px;
+}
+
+.exp h1{
+    color: #111;
 }
